@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { AttributeDirectiveComponent } from "./attribute-directive/attribute-directive.component";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [RouterOutlet, AttributeDirectiveComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
